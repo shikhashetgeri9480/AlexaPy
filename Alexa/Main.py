@@ -51,6 +51,9 @@ def run_alexa():
         talk('good to know')
     elif 'thank you' in command:
         talk('your welcome!')
+    elif 'how' in command:
+        how = command
+        pywhatkit.playonyt(how)
     elif 'who' or 'what' in command:
         person=command
         info = wikipedia.summary(person,3)
