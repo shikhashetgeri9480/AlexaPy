@@ -62,3 +62,5 @@ def run_alexa():
 
 while True:
     run_alexa()
+
+print("this is it, this was the project!")
